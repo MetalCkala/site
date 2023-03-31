@@ -1,234 +1,596 @@
 /* w1900 */
 @media screen and (min-width: 1500px) {
-	#navigation { top: 45px; }
-	#logo {width: 731px;height: 150px;top: 95px;left: 105px;}
-	
-	.page { padding-left: 265px; }
-	.page.serv { padding-top: 285px; padding-right: 265px; }
-	
-	#serv-navigation { top: 255px; left: 270px; line-height: 40px; }
-	#serv-navigation a { font-size: 15px; }
-	.serv-desc { font-size: 20px; line-height: 26px; }
-	
-	/* главный слайд */
-	.page.main { padding-top: 305px; }
-	.main-dynamic-header { font-size: 78px; }
-	.main-text { font-size: 37px; letter-spacing: 0.7px; padding-top: 40px; padding-right: 265px; line-height: 46px; }
-	.main-icons .ico img { height: 81px; }
-	
-	/* дорожное  */
-	.serv-list { padding: 30px 65px 30px 60px; }
-	.serv-list p, .collage-bridges p { font-family: "Neue Regular", Arial; font-size: 20px; }
-	
-	/**/
-	.serv-2-collage { width: 420px; }
-	.collage-bridges { padding-left: 40px;}
-	
-	/**/
-	.serv-3-collage div { padding: 30px; }
-	/**/
-	.serv-4-img img { width: 420px; }
-	/**/
-	.serv-5-collage div { font-size: 12px; }
-	/* контакты */
-	.page.contacts { padding-top: 255px; padding-right: 403px; }
+  #navigation {
+    top: 45px;
+  }
+  #logo {
+    width: 731px;
+    height: 150px;
+    top: 95px;
+    left: 105px;
+  }
+
+  .page {
+    padding-left: 265px;
+  }
+  .page.serv {
+    padding-top: 285px;
+    padding-right: 265px;
+  }
+
+  #serv-navigation {
+    top: 255px;
+    left: 270px;
+    line-height: 40px;
+  }
+  #serv-navigation a {
+    font-size: 15px;
+  }
+  .serv-desc {
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+  /* главный слайд */
+  .page.main {
+    padding-top: 305px;
+  }
+  .main-dynamic-header {
+    font-size: 78px;
+  }
+  .main-text {
+    font-size: 37px;
+    letter-spacing: 0.7px;
+    padding-top: 40px;
+    padding-right: 265px;
+    line-height: 46px;
+  }
+  .main-icons .ico img {
+    height: 81px;
+  }
+
+  /* дорожное  */
+  .serv-list {
+    padding: 30px 65px 30px 60px;
+  }
+  .serv-list p,
+  .collage-bridges p {
+    font-family: "Neue Regular", Arial;
+    font-size: 20px;
+  }
+
+  /**/
+  .serv-2-collage {
+    width: 420px;
+  }
+  .collage-bridges {
+    padding-left: 40px;
+  }
+
+  /**/
+  .serv-3-collage div {
+    padding: 30px;
+  }
+  /**/
+  .serv-4-img img {
+    width: 420px;
+  }
+  /**/
+  .serv-5-collage div {
+    font-size: 12px;
+  }
+  /* контакты */
+  .page.contacts {
+    padding-top: 255px;
+    padding-right: 403px;
+  }
 }
 /* дополнение */
 @media (min-width: 1500px) and (max-width: 1600px) {
-	.main-dynamic-header { font-size: 66px; }
-	.main-text { font-size: 32px; letter-spacing: 0.5px; line-height: 38px; }
-	.page.serv { padding-right: 203px; }
+  .main-dynamic-header {
+    font-size: 66px;
+  }
+  .main-text {
+    font-size: 32px;
+    letter-spacing: 0.5px;
+    line-height: 38px;
+  }
+  .page.serv {
+    padding-right: 203px;
+  }
 }
 
 /* w1300 */
 @media (min-width: 1040px) and (max-width: 1499px) {
-	#navigation { top: 25px; }
-	#logo { width: 531px; height: 108px; top: 75px; left: 55px; }
-	#logo.black { width: 531px; height: 108px; top: 35px; left: 55px; }
-	
-	.page { padding-left: 175px; }
-	.page.serv { padding-top: 155px; padding-right: 100px; } 
-	
-	#serv-navigation { top: 150px; left: 175px; }
-	
-	/* главный слайд */
-	.page.main { padding-top: 220px; }
-	.main-dynamic-header { font-size: 42px; }
-	.main-text { font-size: 24px; letter-spacing: 0.5px; padding-top: 30px; padding-right: 175px; line-height: 32px; }
-	.main-icons .ico img { height: 64px; }
-	.main-icons .ico { margin-right: 20px; }
-	.main-icons .ico a { font-size: 12px; }
-	
-	
-	/* контакты */
-	.page.contacts { padding-top: 165px; padding-right: 100px; }
+  #navigation {
+    top: 25px;
+  }
+  #logo {
+    width: 531px;
+    height: 108px;
+    top: 75px;
+    left: 55px;
+  }
+  #logo.black {
+    width: 531px;
+    height: 108px;
+    top: 35px;
+    left: 55px;
+  }
+
+  .page {
+    padding-left: 175px;
+  }
+  .page.serv {
+    padding-top: 155px;
+    padding-right: 100px;
+  }
+
+  #serv-navigation {
+    top: 150px;
+    left: 175px;
+  }
+
+  /* главный слайд */
+  .page.main {
+    padding-top: 220px;
+  }
+  .main-dynamic-header {
+    font-size: 42px;
+  }
+  .main-text {
+    font-size: 24px;
+    letter-spacing: 0.5px;
+    padding-top: 30px;
+    padding-right: 175px;
+    line-height: 32px;
+  }
+  .main-icons .ico img {
+    height: 64px;
+  }
+  .main-icons .ico {
+    margin-right: 20px;
+  }
+  .main-icons .ico a {
+    font-size: 12px;
+  }
+
+  /* контакты */
+  .page.contacts {
+    padding-top: 165px;
+    padding-right: 100px;
+  }
 }
 
 /* дополнение */
 @media (min-width: 1040px) and (max-width: 1259px) {
-	.serv-header { font-size: 40px; line-height: 40px; }
-	.serv-desc { font-size: 15px; }
-	.serv-more { margin-top: 10px; }
-	
-	/* проектирование дорог */
-	.serv-list { padding: 15px 25px 15px 20px; margin: 20px 0 0 20px; }
-	
-	/* проектирование мостов */
-	.serv-2-text .serv-header { font-size: 32px; line-height: 32px; }
-	
-	/* инженерные изыскания */
-	.serv-3-collage div p { font-size: 18px; margin: 0 0 10px 0; }
-	.serv-3-collage div { font-size: 14px; padding: 15px; }
-	
-	/* управление */
-	.serv-5-collage div p:first-child { font-size: 14px; }
-	.serv-5-collage div { padding: 15px 10px; margin-left: 10px; }
-	
-	/* планирование  */
-	.serv-4-img { margin-left: 20px; }
-	.serv-4-img img { width: 310px; }
-	.serv-4-header { font-size: 32px; line-height: 32px; }
+  .serv-header {
+    font-size: 40px;
+    line-height: 40px;
+  }
+  .serv-desc {
+    font-size: 15px;
+  }
+  .serv-more {
+    margin-top: 10px;
+  }
+
+  /* проектирование дорог */
+  .serv-list {
+    padding: 15px 25px 15px 20px;
+    margin: 20px 0 0 20px;
+  }
+
+  /* проектирование мостов */
+  .serv-2-text .serv-header {
+    font-size: 32px;
+    line-height: 32px;
+  }
+
+  /* инженерные изыскания */
+  .serv-3-collage div p {
+    font-size: 18px;
+    margin: 0 0 10px 0;
+  }
+  .serv-3-collage div {
+    font-size: 14px;
+    padding: 15px;
+  }
+
+  /* управление */
+  .serv-5-collage div p:first-child {
+    font-size: 14px;
+  }
+  .serv-5-collage div {
+    padding: 15px 10px;
+    margin-left: 10px;
+  }
+
+  /* планирование  */
+  .serv-4-img {
+    margin-left: 20px;
+  }
+  .serv-4-img img {
+    width: 310px;
+  }
+  .serv-4-header {
+    font-size: 32px;
+    line-height: 32px;
+  }
 }
 
 /* w1000 */
 @media (min-width: 620px) and (max-width: 1039px) {
-	#navigation { top: 20px; }
-	#navigation a { font-size: 13px; margin: 0 10px; }
-	#navigation a.phone { font-size: 18px; margin: 0 20px 0 30px;}
-	
-	#logo { width: 350px; height: 71px; top: 60px; left: 20px; }
-	#logo.black { width: 350px; height: 71px; top: 45px; left: 20px; }
-	
-	.page { padding-left: 100px; }
-	.page.serv { padding-top: 125px; padding-right: 100px; } 
-	
-	#serv-navigation { top: 120px; left: 98px; line-height: 30px; }
-	.serv-header { font-size: 32px; line-height: 32px;}
-	.serv-desc { font-size: 14px; }
-	.serv-more { margin-top: 10px; }
-	
-	/* главный слайд */
-	.page.main { padding-top: 180px; }
-	.main-dynamic-header { font-size: 25px; }
-	.main-text { font-size: 18px; letter-spacing: 0.5px; padding-top: 30px; padding-right: 100px; line-height: 22px; }
-	.main-icons .ico img { height: 56px; }
-	.main-icons .ico { margin-right: 15px; }
-	.main-icons .ico a { font-size: 12px; }
-	
-	/* проектирование дорог */
-	.serv-list { padding: 15px 25px 15px 20px; margin: 20px 0 0 20px; }
-	.serv-list p { font-size: 14px; margin: 10px 0 0 0; }
-	.serv-list p:first-child { margin-top: 0; }
-	.serv-list p:last-child { margin-bottom: 0; }
-	
-	/* проектирование мостов */
-	.serv-2-collage { width: 280px; }
-	.collage-bridges { height: 140px; padding-left: 20px; }
-	.collage-bridges p { font-size: 16px; }
-	.collage-bridges-2, .collage-bridges-3 { width: 135px; height: 90px; padding-left: 15px; font-size: 12px; }
-	.collage-bridges-2 span, .collage-bridges-3 span { font-size: 40px; }
-	.collage-bridges-2 span { margin-right: 5px; }
-	.collage-bridges-3 span { margin-left: 5px; }
-	.serv-2-left { margin-right: 15px; }
+  #navigation {
+    top: 20px;
+  }
+  #navigation a {
+    font-size: 13px;
+    margin: 0 10px;
+  }
+  #navigation a.phone {
+    font-size: 18px;
+    margin: 0 20px 0 30px;
+  }
 
-	/* инженерные изыскания */
-	.serv-3-collage div p { font-size: 16px; margin: 0 0 10px 0; }
-	.serv-3-collage div { font-size: 14px; padding: 10px 15px; }
-	
-	/* планирование  */
-	.serv-4-img { margin-left: 20px; }
-	.serv-4-img img { width: 250px; }
-	
-	/* управление */
-	.serv-5-collage div p:first-child { color: #a0d046; font-size: 11px; }
-	.serv-5-collage div { padding: 11px 7px; margin-left: 7px; }
-	
-	/* контакты */
-	.page.contacts { padding-top: 125px; padding-right: 100px; }
+  #logo {
+    width: 350px;
+    height: 71px;
+    top: 60px;
+    left: 20px;
+  }
+  #logo.black {
+    width: 350px;
+    height: 71px;
+    top: 45px;
+    left: 20px;
+  }
+
+  .page {
+    padding-left: 100px;
+  }
+  .page.serv {
+    padding-top: 125px;
+    padding-right: 100px;
+  }
+
+  #serv-navigation {
+    top: 120px;
+    left: 98px;
+    line-height: 30px;
+  }
+  .serv-header {
+    font-size: 32px;
+    line-height: 32px;
+  }
+  .serv-desc {
+    font-size: 14px;
+  }
+  .serv-more {
+    margin-top: 10px;
+  }
+
+  /* главный слайд */
+  .page.main {
+    padding-top: 180px;
+  }
+  .main-dynamic-header {
+    font-size: 25px;
+  }
+  .main-text {
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    padding-top: 30px;
+    padding-right: 100px;
+    line-height: 22px;
+  }
+  .main-icons .ico img {
+    height: 56px;
+  }
+  .main-icons .ico {
+    margin-right: 15px;
+  }
+  .main-icons .ico a {
+    font-size: 12px;
+  }
+
+  /* проектирование дорог */
+  .serv-list {
+    padding: 15px 25px 15px 20px;
+    margin: 20px 0 0 20px;
+  }
+  .serv-list p {
+    font-size: 14px;
+    margin: 10px 0 0 0;
+  }
+  .serv-list p:first-child {
+    margin-top: 0;
+  }
+  .serv-list p:last-child {
+    margin-bottom: 0;
+  }
+
+  /* проектирование мостов */
+  .serv-2-collage {
+    width: 280px;
+  }
+  .collage-bridges {
+    height: 140px;
+    padding-left: 20px;
+  }
+  .collage-bridges p {
+    font-size: 16px;
+  }
+  .collage-bridges-2,
+  .collage-bridges-3 {
+    width: 135px;
+    height: 90px;
+    padding-left: 15px;
+    font-size: 12px;
+  }
+  .collage-bridges-2 span,
+  .collage-bridges-3 span {
+    font-size: 40px;
+  }
+  .collage-bridges-2 span {
+    margin-right: 5px;
+  }
+  .collage-bridges-3 span {
+    margin-left: 5px;
+  }
+  .serv-2-left {
+    margin-right: 15px;
+  }
+
+  /* инженерные изыскания */
+  .serv-3-collage div p {
+    font-size: 16px;
+    margin: 0 0 10px 0;
+  }
+  .serv-3-collage div {
+    font-size: 14px;
+    padding: 10px 15px;
+  }
+
+  /* планирование  */
+  .serv-4-img {
+    margin-left: 20px;
+  }
+  .serv-4-img img {
+    width: 250px;
+  }
+
+  /* управление */
+  .serv-5-collage div p:first-child {
+    color: #a0d046;
+    font-size: 11px;
+  }
+  .serv-5-collage div {
+    padding: 11px 7px;
+    margin-left: 7px;
+  }
+
+  /* контакты */
+  .page.contacts {
+    padding-top: 125px;
+    padding-right: 100px;
+  }
 }
 
 /* дополнение */
 @media (min-width: 620px) and (max-width: 799px) {
-	.page { height: auto !important; min-height: auto !important; }
-	.page.serv { padding-left: 50px; padding-right: 50px; }
-	#serv-navigation { left: 48px; }
+  .page {
+    height: auto !important;
+    min-height: auto !important;
+  }
+  .page.serv {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  #serv-navigation {
+    left: 48px;
+  }
 }
 
 /* mobile */
 @media screen and (max-width: 619px) {
-	#navigation { display: none; }
-	
-	#logo { width: 240px; height: 49px; top: 10px; left: 10px; }
-	
-	#hamburger { display: flex; }
-	
-	.page { padding-left:  15px; padding-right: 15px; height: auto !important; min-height: auto !important; }
-	.page.serv { padding-top: 30px; padding-bottom: 30px; border-top: 2px #a0d046 solid; } 
-	
-	#serv-1, #serv-4, #serv-6 { background-color: #ffffff; }
-	#serv-1 .serv-more, #serv-4 .serv-more, #serv-6 .serv-more { background-color: #ffffff; }
-	#serv-1 { border-top: 0; }
-	
-	#serv-overlay { height: 70px; }
-	#serv-navigation { display: none !important; line-height: 27px; }
-	
-	.serv-header { font-size: 28px; line-height: 29px; }
-	.serv-more { margin: 10px 0 0 0; }
-	.serv-desc p { text-align: left; }
-	
-	#videobg-video { object-position: left; }
-	/* главный слайд */
-	.page.main { padding-top: 100px; }
-	.main-dynamic-header { text-align: center; font-size: 23px; }
-	.main-text { font-size: 16px; letter-spacing: 0.5px; padding-top: 30px; line-height: 20px; text-align: center; }
-	.main-icons .ico img { height: 67px; }
-	.main-icons { justify-content: space-around; }
-	.main-icons .ico { width: 50%; margin-right: 0; }
-	.main-icons .ico a { font-size: 12px; }
-	
-	/**/
-	.serv-1-table { flex-direction: column-reverse; align-items: center; }
-	.serv-list { margin: 15px 0; width: 100%; box-sizing: border-box; padding: 20px 55px 20px 20px; }
-	.collage-bridges-2, .collage-bridges-3 {width: calc(50% - 5px);}
-	/**/
-	.serv-2-header { display: block; }
-	.serv-2-table { flex-direction: column-reverse; }
-	.serv-2-left { margin-right: 0px; margin-top: 20px; }
-	.serv-2-collage { width: 100%; }
-	.serv-2-left .serv-header { display: none; }
-	
-	
-	/**/
-	.serv-3-collage div { width: 100%; margin-left: 0; margin-right: 0; }
-	
-	/**/
-	.serv-4-img { display: none; }
-	
-	/**/
-	.serv-5-collage { flex-wrap: wrap; }
-	.serv-5-collage div { margin: 0 0 10px 0; min-width: 200px; }
-	
-	/**/
-	#serv-6 .serv-header { display: none; }
-	#serv-6 .serv-6-header { display: block; }
-	/* контакты */
-	.page.contacts { padding-top: 70px; }
-	.map-container { display: flex; flex-direction: column; height: auto; }
-	.collage-contacts { 
-		position: relative;
-		padding: 20px;
-		margin: 0;
-		height: auto;
-	}
-	.map { display: none; }
-	.map-overlay { display: none; }
-	.serv-desc.contacts p { font-size: 14px; }
+  #navigation {
+    display: none;
+  }
+
+  #logo {
+    width: 240px;
+    height: 49px;
+    top: 10px;
+    left: 10px;
+  }
+
+  #hamburger {
+    display: flex;
+  }
+
+  .page {
+    padding-left: 15px;
+    padding-right: 15px;
+    height: auto !important;
+    min-height: auto !important;
+  }
+  .page.serv {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-top: 2px #a0d046 solid;
+  }
+
+  #serv-1,
+  #serv-4,
+  #serv-6 {
+    background-color: #ffffff;
+  }
+  #serv-1 .serv-more,
+  #serv-4 .serv-more,
+  #serv-6 .serv-more {
+    background-color: #ffffff;
+  }
+  #serv-1 {
+    border-top: 0;
+  }
+
+  #serv-overlay {
+    height: 70px;
+  }
+  #serv-navigation {
+    display: none !important;
+    line-height: 27px;
+  }
+
+  .serv-header {
+    font-size: 28px;
+    line-height: 29px;
+  }
+  .serv-more {
+    margin: 10px 0 0 0;
+  }
+  .serv-desc p {
+    text-align: left;
+  }
+
+  #videobg-video {
+    object-position: left;
+  }
+  /* главный слайд */
+  .page.main {
+    padding-top: 100px;
+  }
+  .main-dynamic-header {
+    text-align: center;
+    font-size: 23px;
+  }
+  .main-text {
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    padding-top: 30px;
+    line-height: 20px;
+    text-align: center;
+  }
+  .main-icons .ico img {
+    height: 67px;
+  }
+  .main-icons {
+    justify-content: space-around;
+  }
+  .main-icons .ico {
+    width: 50%;
+    margin-right: 0;
+  }
+  .main-icons .ico a {
+    font-size: 12px;
+  }
+
+  /**/
+  .serv-1-table {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .serv-list {
+    margin: 15px 0;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px 55px 20px 20px;
+  }
+  .collage-bridges-2,
+  .collage-bridges-3 {
+    width: calc(50% - 5px);
+  }
+  /**/
+  .serv-2-header {
+    display: block;
+  }
+  .serv-2-table {
+    flex-direction: column-reverse;
+  }
+  .serv-2-left {
+    margin-right: 0px;
+    margin-top: 20px;
+  }
+  .serv-2-collage {
+    width: 100%;
+  }
+  .serv-2-left .serv-header {
+    display: none;
+  }
+
+  /**/
+  .serv-3-collage div {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  /**/
+  .serv-4-img {
+    display: none;
+  }
+
+  /**/
+  .serv-5-collage {
+    flex-wrap: wrap;
+  }
+  .serv-5-collage div {
+    margin: 0 0 10px 0;
+    min-width: 200px;
+  }
+
+  /**/
+  #serv-6 .serv-header {
+    display: none;
+  }
+  #serv-6 .serv-6-header {
+    display: block;
+  }
+  /* контакты */
+  .page.contacts {
+    padding-top: 70px;
+  }
+  .map-container {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+  .collage-contacts {
+    position: relative;
+    padding: 20px;
+    margin: 0;
+    height: auto;
+  }
+  .map {
+    display: none;
+  }
+  .map-overlay {
+    display: none;
+  }
+  .serv-desc.contacts p {
+    font-size: 14px;
+  }
 }
 
 @media (min-width: 300px) and (max-width: 360px) {
-	.collage-bridges p { font-size: 18px; }
-	.collage-bridges-2, .collage-bridges-3 { font-size: 13px; padding-left: 15px; height: 110px; }
-	.collage-bridges-2 span, .collage-bridges-3 span { font-size: 55px; }
-	.collage-bridges-2 span { margin-right: 5px; }
-	.collage-bridges-3 span { margin-left: 5px; }
+  .collage-bridges p {
+    font-size: 18px;
+  }
+  .collage-bridges-2,
+  .collage-bridges-3 {
+    font-size: 13px;
+    padding-left: 15px;
+    height: 110px;
+  }
+  .collage-bridges-2 span,
+  .collage-bridges-3 span {
+    font-size: 55px;
+  }
+  .collage-bridges-2 span {
+    margin-right: 5px;
+  }
+  .collage-bridges-3 span {
+    margin-left: 5px;
+  }
 }

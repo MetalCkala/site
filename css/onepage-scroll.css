@@ -1,4 +1,5 @@
-body, html {
+body,
+html {
   margin: 0;
   overflow: hidden;
   -webkit-transition: opacity 400ms;
@@ -6,7 +7,9 @@ body, html {
   transition: opacity 400ms;
 }
 
-body, .onepage-wrapper, html {
+body,
+.onepage-wrapper,
+html {
   display: block;
   position: static;
   padding: 0;
@@ -42,15 +45,14 @@ body, .onepage-wrapper, html {
   text-align: center;
   cursor: pointer;
 }
-.onepage-pagination li a{
+.onepage-pagination li a {
   padding: 10px;
   width: 4px;
   height: 4px;
   display: block;
-  
 }
-.onepage-pagination li a:before{
-  content: '';
+.onepage-pagination li a:before {
+  content: "";
   position: absolute;
   width: 4px;
   height: 4px;
@@ -60,7 +62,7 @@ body, .onepage-wrapper, html {
   -moz-border-radius: 10px;
 }
 
-.onepage-pagination li a.active:before{
+.onepage-pagination li a.active:before {
   width: 10px;
   height: 10px;
   background: none;
@@ -69,7 +71,8 @@ body, .onepage-wrapper, html {
   left: 8px;
 }
 
-.disabled-onepage-scroll, .disabled-onepage-scroll .wrapper {
+.disabled-onepage-scroll,
+.disabled-onepage-scroll .wrapper {
   overflow: auto;
 }
 
@@ -86,11 +89,12 @@ body, .onepage-wrapper, html {
   min-height: 100%;
 }
 
-
 .disabled-onepage-scroll .onepage-pagination {
   display: none;
 }
 
-body.disabled-onepage-scroll, .disabled-onepage-scroll .onepage-wrapper, html {
+body.disabled-onepage-scroll,
+.disabled-onepage-scroll .onepage-wrapper,
+html {
   position: inherit;
 }
